@@ -1,0 +1,30 @@
+
+
+#mainDiv { display: block; width: 100%; height: calc(100% - 150px); margin: 75px 0px; overflow: auto;}
+	#sliderSection { display: block; position: relative; box-sizing: border-box; width: 100%; height: 100%; border-bottom: 1px solid #333; background-image: url("parc_ol.jpg"); background-size: cover; background-position: center; background-repeat: no-repeat;}
+		#sliderSection .description { display: block; position: absolute; top: 20px; left: 50%; transform: translateX(-50%); max-width: 500px; margin: 0px; padding: 10px; background-color: rgba(0, 0, 0, 0.7); box-shadow: 0px 0px 2px #000;}
+		#sliderSection .matches { display: block; box-sizing: border-box; position: absolute; overflow: hidden; bottom: 20px; width: 100%; height: 200px; margin: 0px auto;}
+			#sliderSection .matches .match { display: block; box-sizing: border-box; position: absolute; right: 105%; width: 400px; height: 100%; background-color: rgba(0, 0, 0, 0.7); box-shadow: 0px 0px 2px #000; font-size: 0px; color: #fff; transition: all 500ms ease;}
+				#sliderSection .matches .match .left { display: inline-block; vertical-align: top; box-sizing: border-box; width: 35%; height: 100%; padding: 10px; text-align: left; }
+					#sliderSection .matches .match .left img { display: block; margin: auto;}
+					#sliderSection .matches .match .left h2 { text-decoration: none; display: block; height: 30px; line-height: 30px; font-size: 16px; text-align: center;}
+					#sliderSection .matches .match .left .cote { height: 80px; line-height: 80px; font-size: 40px; text-align: center; color: #0F5;}
+				#sliderSection .matches .match a { text-decoration: none; color: #fff; }
+				#sliderSection .matches .match .center { display: inline-block; vertical-align: top; box-sizing: border-box; width: 30%; height: 100%; padding: 10px;}
+					#sliderSection .matches .match .center .vs { display: block; height: 60px; line-height: 60px; text-align: center; font-size: 32px; text-shadow: 0px 0px 10px #000;}
+					#sliderSection .matches .match .center h2 { display: block; height: 26px; line-height: 26px; font-size: 16px; text-align: center;}
+					#sliderSection .matches .match .center .cote { height: 80px; line-height: 80px; font-size: 40px; text-align: center; color: #0F5;}
+				#sliderSection .matches .match .right { display: inline-block; vertical-align: top; box-sizing: border-box; width: 35%; height: 100%; padding: 10px; text-align: right;}
+					#sliderSection .matches .match .right img { display: block; margin: auto;}
+					#sliderSection .matches .match .right h2 { display: block; height: 30px; line-height: 30px; font-size: 16px; text-align: center;}
+					#sliderSection .matches .match .right .cote { height: 80px; line-height: 80px; font-size: 40px; text-align: center; color: #0F5;}
+	#trucSection {}
+
+
+#mainFooter { position: fixed; z-index: 2; bottom: 0; width: 100%; background-color: #111; box-shadow: 0px 0px 4px #111; width: 100%; height: 75px; font-size: 0px;}
+	#mainFooter a { font-family: "Oswald"; width: 50%; height: 75px; line-height: 75px; padding-left: 10px; color: #fff; display: inline-block; vertical-align: top; box-sizing: border-box; font-size: 32px; text-decoration: none; transition: all 250ms ease;}
+	#mainFooter #left_link { padding-left: 10px;}
+	#mainFooter #left_link:hover { padding-left: 20px;}
+	#mainFooter #right_link { padding-right: 10px; text-align: right;}
+	#mainFooter #right_link:hover { padding-right: 20px;}
+

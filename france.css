@@ -1,0 +1,4 @@
+body {background-image: url(fondecraneuro.jpg); background-size: cover; background-repeat: no-repeat;}
+	#mainDiv > p {color: #fafafa; text-shadow: 0px 0px 2px #000; }
+		#compoSection {display: block; text-align: center;}
+			#compoSection > img {display: inline-block; vertical-align: top; width: 40%;}
